@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+    <Button
+        android:text="TELEPON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnpgl"
+        android:onClick="panggil"
+        />
+    <Button
+        android:text="BUKA BROWSER "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnpgl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/btnbuka"
+        android:onClick="buka"/>
+
+
+    <Button
+        android:id="@+id/btninfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbuka"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:onClick="tentang"
+        android:text="TENTANG APLIKASI" />
+
+    <Button
+        android:id="@+id/btnmsc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbuka"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:onClick="msc"
+
+        android:text="BUKA G-Drive" />
+
+    <Button
+        android:id="@+id/btnopen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbuka"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="293dp"
+        android:onClick="open"
+
+        android:text="Android Studio " />
+
+</RelativeLayout>

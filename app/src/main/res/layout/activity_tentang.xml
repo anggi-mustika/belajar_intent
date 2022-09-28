@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tentang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tentang">
+
+    <TextView
+        android:text="Ini adalah aplikasi belajar Intent"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView"/>
+    <Button
+        android:id="@+id/btnkembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="342dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:text="kembali" />
+</RelativeLayout>
